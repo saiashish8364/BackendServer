@@ -31,6 +31,7 @@ function requestHandler(req, res) {
         console.log(err);
         return;
       }
+      console.log(data);
       res.write("<html>");
       res.write("<head><title>hello</title></head>");
       res.write(
